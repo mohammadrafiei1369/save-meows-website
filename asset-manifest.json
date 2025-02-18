@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/save-meows-website/static/css/main.1e0709c1.css",
+    "main.js": "/save-meows-website/static/js/main.c850483c.js",
+    "index.html": "/save-meows-website/index.html",
+    "main.1e0709c1.css.map": "/save-meows-website/static/css/main.1e0709c1.css.map",
+    "main.c850483c.js.map": "/save-meows-website/static/js/main.c850483c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e0709c1.css",
+    "static/js/main.c850483c.js"
+  ]
+}
