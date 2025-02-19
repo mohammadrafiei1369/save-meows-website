@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/save-meows-website/static/css/main.1e0709c1.css",
-    "main.js": "/save-meows-website/static/js/main.c850483c.js",
+    "main.css": "/save-meows-website/static/css/main.830e8fbb.css",
+    "main.js": "/save-meows-website/static/js/main.fe5e7dae.js",
     "index.html": "/save-meows-website/index.html",
-    "main.1e0709c1.css.map": "/save-meows-website/static/css/main.1e0709c1.css.map",
-    "main.c850483c.js.map": "/save-meows-website/static/js/main.c850483c.js.map"
+    "main.830e8fbb.css.map": "/save-meows-website/static/css/main.830e8fbb.css.map",
+    "main.fe5e7dae.js.map": "/save-meows-website/static/js/main.fe5e7dae.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e0709c1.css",
-    "static/js/main.c850483c.js"
+    "static/css/main.830e8fbb.css",
+    "static/js/main.fe5e7dae.js"
   ]
 }
