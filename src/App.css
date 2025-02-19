@@ -1,0 +1,191 @@
+/* Header Styles */
+header {
+  background-color: #1e1e2d;
+  padding: 1rem;
+}
+
+header h1 {
+  color: #7e5bef;
+  font-size: 1.75rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+header button {
+  background-color: #7e5bef;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+header button:hover {
+  background-color: #6d28d9;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-color: #1e1e2d;
+  padding: 2rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  color: #b4b4c7;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#hero a {
+  background-color: #7e5bef;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+#hero a:hover {
+  background-color: #6d28d9;
+}
+
+/* Presale Section Styles */
+#buy-now {
+  background-color: #1e1e2d;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+}
+
+#buy-now h2 {
+  font-size: 1.75rem;
+  color: #7e5bef;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#buy-now input {
+  background-color: #2a2a3d;
+  color: white;
+  border: 1px solid #4c4c6b;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 1rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#buy-now p {
+  font-size: 1rem;
+  color: #b4b4c7;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#buy-now button {
+  background-color: #7e5bef;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+#buy-now button:hover {
+  background-color: #6d28d9;
+}
+
+/* Tokenomics Section Styles */
+#tokenomics {
+  background-color: #1e1e2d;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+}
+
+#tokenomics h2 {
+  font-size: 1.75rem;
+  color: #7e5bef;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#tokenomics canvas {
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+/* Roadmap Section Styles */
+#roadmap {
+  background-color: #1e1e2d;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
+}
+
+#roadmap h2 {
+  font-size: 1.75rem;
+  color: #7e5bef;
+  animation: fadeIn 2s ease-in-out;
+}
+
+#roadmap ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #b4b4c7;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1e1e2d;
+  padding: 1rem;
+  text-align: center;
+  animation: fadeIn 2s ease-in-out;
+}
+
+footer p {
+  color: #b4b4c7;
+  font-size: 1rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+footer a {
+  color: #7e5bef;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+footer a:hover {
+  color: #6d28d9;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
